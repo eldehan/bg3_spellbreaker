@@ -16,6 +16,9 @@
   <content contentuid="h92af6f9cg53e7g48e2g9c19g6dac3f525793" version="1">Spellbane dice are spent to empower Spellbreaker abilities, improving anti-magic capabilities in combat.</content>
   <content contentuid="h3fcd01eag22b6g4912gb3c5gd3b2773c9708" version="1">Spellbane Dice: [3]</content>
   <content contentuid="hc85cec43g6722g4dfdg9122g4aa35f4f40ef" version="1">Your Spellbane Dice are d4s. You have [3]. At Fighter level 7, these dice become d6s. At Fighter level 11, they become d8s. They fuel your Spellbreaker abilities and are expended upon use. You regain expended Spellbane Dice after a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+  <content contentuid="h9fbfaf56g00a6g494cg8a11g7b441941605c" version="1">You gain 2 more &lt;LSTag Type="ActionResource" Tooltip="LyriumDie"&gt;Spellbane Dice&lt;/LSTag&gt;.</content>
+  <content contentuid="ha595935fg67d4g4d2eg8647ge13a4c37bbec" version="1">Disciplines</content>
+  <content contentuid="hb5bdec9dg4631g4b65g9ef3g260be05083e0" version="1">Disciplines are powerful abilities that use Spellbane Dice.</content>
   <content contentuid="hbce9ad05g3237g4cf6g85dcg125f209fc1e4" version="1">Deny Magic</content>
   <content contentuid="hc036161cgbceeg4e10gbfd3g8f461f2fb099" version="1">Deny Magic (Ally)</content>
   <content contentuid="hd8b4d37dg7749g4a13gbe85g556c117efe99" version="1">When an enemy hits you with a spell, spend a spellbane die to reduce the damage by [1]. You must be able to see the attacker.</content>
@@ -35,8 +38,8 @@
   <content contentuid="h49f35f94g3d09g414bgb622gf2b4b9f9bd5b" version="1">Counterspell DC is equal to 10 + the spell's level. In place of any ability modifier, your spellbane die is rolled to add [1] to the Check.</content>
   <content contentuid="hf5d799a1g2927g4360g8580gebb0c0f2486b" version="1">Spend a spellbane die to give an ally a +[1] bonus on an Intelligence, Wisdom, or Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; against a spell.</content>
   <content contentuid="h291403b1g01e0g4da6gafd0gf7b40b5dcbf5" version="1">Break your target's &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Silence&lt;/LSTag&gt; it for 2 turns. If your target is concentrating or is a supernatural or otherworldly being, deal the maximum possible damage of [1].</content>
-  <content contentuid="h3f7d9e97ga95fg452cg9e88g20d89c64be8d" version="1">Templar Doctrine</content>
-  <content contentuid="he7d810dfg8fc8g40dcgbbbag0875bee3c727" version="1">Spend a spellbane die to gain a +[1] bonus on Arcana, Religion, and Medicine &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; for 10 turns.</content>
+  <content contentuid="h3f7d9e97ga95fg452cg9e88g20d89c64be8d" version="1">Practiced Doctrine</content>
+  <content contentuid="he7d810dfg8fc8g40dcgbbbag0875bee3c727" version="1">Spend a spellbane die to gain a +[1] bonus on an Arcana or Investigation &lt;LSTag Tooltip="AbilityCheck"&gt;Check&lt;/LSTag&gt;.</content>
   <content contentuid="h35c1ef4eg8c1fg4301g8909g96e348e23ae5" version="1">Sacred Chant</content>
   <content contentuid="ha2ee5cb6gbb07g42b2gabdeg431f9bde4ff0" version="1">Invoke ancient hymns to harness powerful effects. Each chant is a &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; ability that offers unique benefits.</content>
   <content contentuid="h5f29b970g8483g4f77gb169g5fb7f4f0fbcf" version="1">Being &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Silenced&lt;/LSTag&gt; will prevent you from chanting. However, chants are not spells and are not affected by antimagic effects like Sussur.</content>

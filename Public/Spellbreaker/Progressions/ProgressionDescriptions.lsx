@@ -17,21 +17,31 @@
                     <attribute id="ExactMatch" type="FixedString" value="ProficiencyBonus(Skill,Arcana)"/>
                     <attribute id="Hidden" type="bool" value="false"/>
                     <attribute id="PassivePrototype" type="FixedString" value="FavoredEnemy_KeeperOfTheVeil"/>
+                    <attribute id="ProgressionTableId" type="guid" value="05d94a24-1072-43bf-8daf-8552fbff6dec"/>
                     <attribute id="UUID" type="guid" value="77683fda-d1b3-40a5-bcb1-24aac4426b66"/>
-                </node>
+                  </node>
                   <node id="ProgressionDescription">
                     <attribute id="DisplayName" type="TranslatedString" handle="h3fcd01eag22b6g4912gb3c5gd3b2773c9708" version="1"/>
                     <attribute id="Description" type="TranslatedString" handle="hc85cec43g6722g4dfdg9122g4aa35f4f40ef" version="1"/>
                     <attribute id="ExactMatch" type="FixedString" value="ActionResource(SpellbaneDie,4,0)"/>
                     <attribute id="Type" type="FixedString" value="ActionResource"/>
+                    <attribute id="ProgressionTableId" type="guid" value="05d94a24-1072-43bf-8daf-8552fbff6dec"/>
                     <attribute id="UUID" type="guid" value="0a411c60-2b56-4556-89c9-bd4f230198ed"/>
-                </node>
-                <node id="ProgressionDescription">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h5384ff7cg7a3ag4971g94f7g96ff62172407" version="1"/>
-                    <attribute id="Description" type="TranslatedString" handle="hf705aaa2g6a48g4d14gb6c3ga4dcd101cbcb" version="1"/>
+                  </node>
+                  <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3fcd01eag22b6g4912gb3c5gd3b2773c9708" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="h9fbfaf56g00a6g494cg8a11g7b441941605c" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="ActionResource(SpellbaneDie,2,0)"/>
+                    <attribute id="Type" type="FixedString" value="ActionResource"/>
+                    <attribute id="ProgressionTableId" type="guid" value="05d94a24-1072-43bf-8daf-8552fbff6dec"/>
+                    <attribute id="UUID" type="guid" value="a5c1d822-db93-40b2-a8cb-03cedf46fa16"/>
+                  </node>
+                  <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha595935fg67d4g4d2eg8647ge13a4c37bbec" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="hb5bdec9dg4631g4b65g9ef3g260be05083e0" version="1"/>
                     <attribute id="SelectorId" type="FixedString" value="Disciplines"/>
                     <attribute id="UUID" type="guid" value="e0eecdc5-575e-4260-91e5-4aa25d3cabf9"/>
-                </node>
+                  </node>
             </children>
         </node>
     </region>

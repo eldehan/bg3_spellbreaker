@@ -219,10 +219,10 @@ data "SpellSoundMagnitude" "Big"
 
 // NEW
 
-new entry "Spellbreaker_Shout_PracticedDoctrine"
+new entry "Spellbreaker_Shout_PracticedDoctrine_d4"
 type "SpellData"
 data "SpellType" "Shout"
-data "SpellProperties" "ApplyStatus(SELF,SPELLBREAKER_PRACTICED_DOCTRINE,100,1)"
+data "SpellProperties" "ApplyStatus(SELF,SPELLBREAKER_PRACTICED_DOCTRINE_d4,100,1)"
 data "TargetConditions" "Self()"
 data "Icon" "Spell_Illusion_MirrorImage"
 data "DisplayName" "h35c1ef4eg8c1fg4301g8909g96e348e23ae5"
@@ -242,6 +242,18 @@ data "PrepareEffect" "c8bad353-e651-471b-89c2-05282d9b047f"
 data "CastEffect" "5d7a0ad1-ac47-4f03-8c36-cce8184e1df0"
 data "TargetEffect" "1b828844-74d8-4f40-81e1-cb451c4e42bf"
 data "Sheathing" "DontChange"
+
+new entry "Spellbreaker_Shout_PracticedDoctrine_d6"
+type "SpellData"
+data "SpellType" "Shout"
+using "Spellbreaker_Shout_PracticedDoctrine_d4"
+data "SpellProperties" "ApplyStatus(SELF,SPELLBREAKER_PRACTICED_DOCTRINE_d6,100,1)"
+
+new entry "Spellbreaker_Shout_PracticedDoctrine_d8"
+type "SpellData"
+data "SpellType" "Shout"
+using "Spellbreaker_Shout_PracticedDoctrine_d4"
+data "SpellProperties" "ApplyStatus(SELF,SPELLBREAKER_PRACTICED_DOCTRINE_d8,100,1)"
 
 new entry "Spellbreaker_Shout_SacredChant"
 type "SpellData"
