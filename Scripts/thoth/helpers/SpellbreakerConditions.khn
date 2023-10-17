@@ -1,0 +1,30 @@
+function IsAnnullingSmite()
+	return SpellId('Target_Smite_Annulling') 
+end
+
+function NotNormalHumanoid(target)
+    target = target or context.Target
+
+    return Tagged('ABERRATION', target) | Tagged('FIEND', target) | Tagged('CELESTIAL', target) | Tagged('ELEMENTAL', target) | Tagged('FEY', target) | Tagged('UNDEAD', target)
+end
+
+function SpellbreakerTryCounterspellHigherLevel(level)
+    local spellPowerLevel = SpellPowerLevelEqualOrLessThan(level)
+    if not spellPowerLevel.Result then
+        local counterspellDC = 12 + context.HitDescription.SpellPowerLevel
+        local st = AbilityCheck(Ability.Wisdom, counterspellDC, false, false, 0, context.Observer, context.Observer)
+        return ConditionResult(st.Result,{},{},st.Chance)
+    end
+    return ConditionResult(true,{},{},1.0)
+end
+
+function DisciplineSaveDC()
+    return 10 + math.max(GetModifier(context.Source.Constitution), GetModifier(context.Source.Wisdom))
+end
+
+function IsIllusionSpell()
+    return SpellId('Target_HypnoticPattern')
+      | SpellId('Target_PhantasmalForce')
+      | SpellId('Target_PhantasmalKiller')
+      | SpellId('Zone_Fear')
+end

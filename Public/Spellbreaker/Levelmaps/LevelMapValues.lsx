@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="8" build="612"/>
+    <region id="LevelMapValues">
+        <node id="root">
+            <children>
+                <node id="LevelMapSeries">
+                    <attribute id="FallbackValue" type="LSString" value="1d4"/>
+                    <attribute id="Level1" type="LSString" value="1d4"/>
+                    <attribute id="Level7" type="LSString" value="1d6"/>
+                    <attribute id="Level11" type="LSString" value="1d8"/>
+                    <attribute id="Name" type="FixedString" value="SpellbaneDie"/>
+                    <attribute id="PreferredClassUUID" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232f"/>
+                    <attribute id="UUID" type="guid" value="2a24f7c4-190d-4a82-8dd3-10e2797c2533"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

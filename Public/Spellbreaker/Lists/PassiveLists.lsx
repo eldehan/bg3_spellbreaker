@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="307"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="c39b7b41-c467-44d1-af22-fd2e556cbb1d"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="d2f95c9f-f86f-450c-863a-e77fe169b3b7"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

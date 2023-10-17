@@ -1,0 +1,6 @@
+new entry "SPELLBREAKER_PASSIVE_FIERY_SMITE"
+type "StatusData"
+data "StatusType" "EFFECT"
+using "_PASSIVES"
+data "DisplayName" "h4abc4cf7g675fg4ebcgac63g47ef89e95153;1"
+data "StatusEffect" "b471ceb6-8bce-4afe-8a4f-964f91269b8c"
