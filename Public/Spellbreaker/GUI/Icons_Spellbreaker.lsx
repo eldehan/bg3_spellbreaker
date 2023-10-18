@@ -86,7 +86,7 @@
           <attribute id="V2" type="float" value="0.03125"/> Bottom
 				</node>
 				<node id="IconUV">
-					<attribute id="MapKey" type="FixedString" value="Spellbreaker_Skill_ThereIsNoDarkness_Chant"/>
+					<attribute id="MapKey" type="FixedString" value="Spellbreaker_Skill_TrueSight"/>
           <attribute id="U1" type="float" value="0.28125"/> Left
           <attribute id="U2" type="float" value="0.3125"/> Right
           <attribute id="V1" type="float" value="0.0"/> Top
@@ -100,14 +100,14 @@
           <attribute id="V2" type="float" value="0.03125"/> Bottom
 				</node>
 				<node id="IconUV">
-					<attribute id="MapKey" type="FixedString" value="Spellbreaker_Skill_OUnrepentant_Chant"/>
+					<attribute id="MapKey" type="FixedString" value="Spellbreaker_Skill_Offensive_Chant"/>
           <attribute id="U1" type="float" value="0.34375"/> Left
           <attribute id="U2" type="float" value="0.375"/> Right
           <attribute id="V1" type="float" value="0.0"/> Top
           <attribute id="V2" type="float" value="0.03125"/> Bottom
 				</node>
 				<node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value="Spellbreaker_Skill_ThroughFlameAndFrost_Chant"/> 13
+          <attribute id="MapKey" type="FixedString" value="Spellbreaker_Skill_ExaltedMarch"/> 13
           <attribute id="U1" type="float" value="0.375"/> Left
           <attribute id="U2" type="float" value="0.40625"/> Right
           <attribute id="V1" type="float" value="0.0"/> Top
@@ -121,7 +121,7 @@
             <attribute id="V2" type="float" value="0.03125"/> Bottom
         </node>				
         <node id="IconUV">
-            <attribute id="MapKey" type="FixedString" value="Spellbreaker_Skill_IEndureStill_Chant"/> 15
+            <attribute id="MapKey" type="FixedString" value="Spellbreaker_Skill_Defensive_Chant"/> 15
             <attribute id="U1" type="float" value="0.4375"/> Left
             <attribute id="U2" type="float" value="0.46875"/> Right
             <attribute id="V1" type="float" value="0.0"/> Top
@@ -149,7 +149,7 @@
             <attribute id="V2" type="float" value="0.03125"/> Bottom
         </node>		
         <node id="IconUV">
-            <attribute id="MapKey" type="FixedString" value="Spellbreaker_"/> 19
+            <attribute id="MapKey" type="FixedString" value="Spellbreaker_Skill_PracticedDoctrine"/> 19
             <attribute id="U1" type="float" value="0.5625"/> Left
             <attribute id="U2" type="float" value="0.59375"/> Right
             <attribute id="V1" type="float" value="0.0"/> Top
