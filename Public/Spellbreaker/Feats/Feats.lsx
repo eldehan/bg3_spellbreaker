@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="Feats">
+		<node id="root">
+			<children>
+        <node id="Feat">
+          <attribute id="CanBeTakenMultipleTimes" type="bool" value="true"/>
+          <attribute id="Name" type="FixedString" value="AntimagicAcolyte"/>
+          <attribute id="PassivesAdded" type="LSString" value="Spellbreaker_AntimagicAcolyte_Passive"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(c39b7b41-c467-44d1-af22-fd2e556cbb1d,1,AADisciplines)"/>
+          <attribute id="UUID" type="guid" value="3a854145-d3b1-4b3a-85c7-b192342f916c"/>
+        </node>
+			</children>
+		</node>
+	</region>
+</save>

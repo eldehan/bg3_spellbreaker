@@ -34,17 +34,26 @@
 				            <attribute id="Boosts" type="LSString" value="ActionResource(SpellbaneDie,4,0);ProficiencyBonus(Skill,Arcana);ProficiencyBonus(Skill,Investigation)"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Spellbreaker"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Spellbreaker_DenyMagic_Passive;Spellbreaker_Smite_Passive;Spellbreaker_SacredChant_Passive_NEW;Spellbreaker_RestoreDice_Passive"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Spellbreaker_RestoreDice_Passive"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(c39b7b41-c467-44d1-af22-fd2e556cbb1d,1,Disciplines)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(c39b7b41-c467-44d1-af22-fd2e556cbb1d,2,Disciplines)"/>
                     <attribute id="TableUUID" type="guid" value="05d94a24-1072-43bf-8daf-8552fbff6dec"/>
                     <attribute id="UUID" type="guid" value="4b8c9be9-19b1-4e99-beb3-cd14e6f75771"/>
+                </node>
+                <node id="Progression">
+				            <attribute id="Boosts" type="LSString" value="ActionResource(SpellbaneDie,10,0)"/>
+                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Name" type="LSString" value="Spellbreaker"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="05d94a24-1072-43bf-8daf-8552fbff6dec"/>
+                    <attribute id="UUID" type="guid" value="a089bec8-bb57-4e97-8a2a-eb54c4a10787"/>
                 </node>
                 <node id="Progression">
 				            <attribute id="Boosts" type="LSString" value="ActionResource(SpellbaneDie,2,0)"/>
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="Spellbreaker"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Spellbreaker_PracticedDoctrine_d6_Passive"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Spellbreaker_ImprovedSpellbaned6_Passive;Spellbreaker_PracticedDoctrine_d6_Passive;Spellbreaker_MentalFortressd6_Passive;"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="05d94a24-1072-43bf-8daf-8552fbff6dec"/>
                     <attribute id="UUID" type="guid" value="cdc3acca-2068-44bf-bba3-1bf375fd6569"/>
@@ -53,9 +62,9 @@
 				            <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="Spellbreaker"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Spellbreaker_SmiteImproved_Passive;Spellbreaker_MentalFortressd6_Passive"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-					          <attribute id="Selectors" type="LSString" value="SelectPassives(d2f95c9f-f86f-450c-863a-e77fe169b3b7,1,Disciplines)"/>
+					          <attribute id="Selectors" type="LSString" value="SelectPassives(d2f95c9f-f86f-450c-863a-e77fe169b3b7,2,Disciplines)"/>
                     <attribute id="TableUUID" type="guid" value="05d94a24-1072-43bf-8daf-8552fbff6dec"/>
                     <attribute id="UUID" type="guid" value="004b37b1-5866-44ed-aa88-081e62b32bbd"/>
                 </node>
@@ -63,7 +72,7 @@
 				            <attribute id="Boosts" type="LSString" value="ActionResource(SpellbaneDie,2,0)"/>
                     <attribute id="Level" type="uint8" value="9"/>
                     <attribute id="Name" type="LSString" value="Spellbreaker"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Spellbreaker_PracticedDoctrine_d8_Passive"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Spellbreaker_ImprovedSpellbaned8_Passive;Spellbreaker_PracticedDoctrine_d8_Passive;Spellbreaker_MentalFortressd8_Passive"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
 					          <attribute id="Selectors" type="LSString" value=""/>
                     <attribute id="TableUUID" type="guid" value="05d94a24-1072-43bf-8daf-8552fbff6dec"/>
@@ -73,21 +82,11 @@
 				            <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="Spellbreaker"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Spellbreaker_CounterspellFree_Passive;Spellbreaker_CounterspellCost_Passive"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Spellbreaker_RiteOfAnnulment_Passive_NEW"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-					          <attribute id="Selectors" type="LSString" value="SelectPassives(5262c031-c4d4-476e-af41-ca81d1ef73e6,1,Disciplines)"/>
+					          <attribute id="Selectors" type="LSString" value="SelectPassives(5262c031-c4d4-476e-af41-ca81d1ef73e6,2,Disciplines)"/>
                     <attribute id="TableUUID" type="guid" value="05d94a24-1072-43bf-8daf-8552fbff6dec"/>
                     <attribute id="UUID" type="guid" value="982092ce-d0f3-4e5a-bd05-f87932684efb"/>
-                </node>
-                <node id="Progression">
-				            <attribute id="Boosts" type="LSString" value=""/>
-                    <attribute id="Level" type="uint8" value="11"/>
-                    <attribute id="Name" type="LSString" value="Spellbreaker"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Spellbreaker_MentalFortressd8_Passive"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-					          <attribute id="Selectors" type="LSString" value=""/>
-                    <attribute id="TableUUID" type="guid" value="05d94a24-1072-43bf-8daf-8552fbff6dec"/>
-                    <attribute id="UUID" type="guid" value="6dc87467-0cc9-4597-83d4-c5b99349ac10"/>
                 </node>
             </children>
         </node>

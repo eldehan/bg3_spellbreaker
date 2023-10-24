@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="FeatDescriptions">
+		<node id="root">
+			<children>
+				<node id="FeatDescription">
+					<attribute id="DisplayName" type="TranslatedString" handle="hb76ac6dcg754ag4efega366ga602ca31cf69" version="1"/>					
+          <attribute id="Description" type="TranslatedString" handle="h4bd9b9e2g185eg404egb0d9gd8b8ef16d35e" version="1"/>
+					<attribute id="ExactMatch" type="FixedString" value="AntimagicAcolyte"/>
+					<attribute id="FeatId" type="guid" value="3a854145-d3b1-4b3a-85c7-b192342f916c"/>
+					<attribute id="UUID" type="guid" value="ee4eb236-a391-497a-98f6-823b57546c5c"/>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

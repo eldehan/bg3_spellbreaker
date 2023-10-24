@@ -5,15 +5,11 @@
         <node id="root">
             <children>
                 <node id="PassiveList">
-                    <attribute id="Passives" type="LSString" value="Spellbreaker_PracticedDoctrine_d4_Passive,Spellbreaker_MentalFortressd4_Passive"/>
+                    <attribute id="Passives" type="LSString" value="Spellbreaker_AnnullingStrike_Passive,DenyMagic_Passive_NEWER,Spellbreaker_WeaveburningStrike_Passive,Spellbreaker_PracticedDoctrine_d4_Passive,Spellbreaker_MentalFortressd4_Passive,Spellbreaker_RemoveCurse_Passive,Spellbreaker_Counterspell_Passive,Spellbreaker_EyesOfTheWatcher_Passive_NEW,Spellbreaker_InevitableAdvance_Passive,Spellbreaker_WeaveRend_Passive"/>
                     <attribute id="UUID" type="guid" value="c39b7b41-c467-44d1-af22-fd2e556cbb1d"/>
                 </node>
                 <node id="PassiveList">
-                    <attribute id="Passives" type="LSString" value="Spellbreaker_PracticedDoctrine_Passive,Spellbreaker_MentalFortressd4_Passive,Spellbreaker_TrueSight_Passive_NEW,Spellbreaker_Trespasser_Passive_NEW"/>
-                    <attribute id="UUID" type="guid" value="d2f95c9f-f86f-450c-863a-e77fe169b3b7"/>
-                </node>
-                <node id="PassiveList">
-                    <attribute id="Passives" type="LSString" value="Spellbreaker_PracticedDoctrine_Passive,Spellbreaker_MentalFortressd4_Passive,Spellbreaker_TrueSight_Passive_NEW,Spellbreaker_Trespasser_Passive_NEW,Spellbreaker_WeaveRend_Passive,Spellbreaker_RiteOfAnnulment_Passive_NEW"/>
+                    <attribute id="Passives" type="LSString" value="Spellbreaker_PracticedDoctrine_d4_Passive,Spellbreaker_MentalFortressd4_Passive,Spellbreaker_RemoveCurse_Passive,Spellbreaker_Trespasser_Passive_NEW,Spellbreaker_BreakEnchantment_Passive,"/>
                     <attribute id="UUID" type="guid" value="5262c031-c4d4-476e-af41-ca81d1ef73e6"/>
                 </node>
             </children>

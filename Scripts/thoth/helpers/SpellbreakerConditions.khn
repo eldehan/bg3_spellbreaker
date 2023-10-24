@@ -12,7 +12,7 @@ function SpellbreakerTryCounterspellHigherLevel(level)
     local spellPowerLevel = SpellPowerLevelEqualOrLessThan(level)
     if not spellPowerLevel.Result then
         local counterspellDC = 12 + context.HitDescription.SpellPowerLevel
-        local st = AbilityCheck(Ability.Wisdom, counterspellDC, false, false, 0, context.Observer, context.Observer)
+        local st = AbilityCheck(Ability.Constitution, counterspellDC, false, false, 0, context.Observer, context.Observer)
         return ConditionResult(st.Result,{},{},st.Chance)
     end
     return ConditionResult(true,{},{},1.0)
@@ -27,4 +27,28 @@ function IsIllusionSpell()
       | SpellId('Target_PhantasmalForce')
       | SpellId('Target_PhantasmalKiller')
       | SpellId('Zone_Fear')
+end
+
+function HasAttackDamageDoneMagicType()
+	if context.AttackDescription.GetDamageDoneForType(DamageType.Acid) > 0 then
+		return ConditionResult(true)
+	elseif context.AttackDescription.GetDamageDoneForType(DamageType.Cold) > 0 then
+		return ConditionResult(true)
+	elseif context.AttackDescription.GetDamageDoneForType(DamageType.Fire) > 0 then
+		return ConditionResult(true)
+	elseif context.AttackDescription.GetDamageDoneForType(DamageType.Force) > 0 then
+		return ConditionResult(true)
+	elseif context.AttackDescription.GetDamageDoneForType(DamageType.Lightning) > 0 then
+		return ConditionResult(true)
+	elseif context.AttackDescription.GetDamageDoneForType(DamageType.Poison) > 0 then
+		return ConditionResult(true)
+  elseif context.AttackDescription.GetDamageDoneForType(DamageType.Psychic) > 0 then
+		return ConditionResult(true)
+	elseif context.AttackDescription.GetDamageDoneForType(DamageType.Radiant) > 0 then
+		return ConditionResult(true)
+	elseif context.AttackDescription.GetDamageDoneForType(DamageType.Thunder) > 0 then
+		return ConditionResult(true)
+	else
+		return ConditionResult(false)
+	end
 end
