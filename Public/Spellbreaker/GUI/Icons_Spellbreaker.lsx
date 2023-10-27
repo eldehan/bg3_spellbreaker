@@ -58,28 +58,28 @@
           <attribute id="V2" type="float" value="0.03125"/> Bottom
 				</node>
 				<node id="IconUV">
-					<attribute id="MapKey" type="FixedString" value="Spellbreaker_"/>
+					<attribute id="MapKey" type="FixedString" value="Spellbreaker_Skill_MentalFortress"/>
           <attribute id="U1" type="float" value="0.15625"/> Left
           <attribute id="U2" type="float" value="0.1875"/> Right
           <attribute id="V1" type="float" value="0.0"/> Top
           <attribute id="V2" type="float" value="0.03125"/> Bottom
 				</node>
 				<node id="IconUV">
-					<attribute id="MapKey" type="FixedString" value="Spellbreaker_"/>
+					<attribute id="MapKey" type="FixedString" value="Spellbreaker_Skill_WeaveRend"/>
           <attribute id="U1" type="float" value="0.1875"/> Left
           <attribute id="U2" type="float" value="0.21875"/> Right
           <attribute id="V1" type="float" value="0.0"/> Top
           <attribute id="V2" type="float" value="0.03125"/> Bottom
 				</node>
 				<node id="IconUV">
-					<attribute id="MapKey" type="FixedString" value="Spellbreaker_"/>
+					<attribute id="MapKey" type="FixedString" value="Spellbreaker_Skill_ArcaneDevourer"/>
           <attribute id="U1" type="float" value="0.21875"/> Left
           <attribute id="U2" type="float" value="0.25"/> Right
           <attribute id="V1" type="float" value="0.0"/> Top
           <attribute id="V2" type="float" value="0.03125"/> Bottom
 				</node>
 				<node id="IconUV">
-					<attribute id="MapKey" type="FixedString" value="Spellbreaker_Skill_Sacred_Chant"/>
+					<attribute id="MapKey" type="FixedString" value="Spellbreaker_Skill_AntimagicCommunion"/>
           <attribute id="U1" type="float" value="0.25"/> Left
           <attribute id="U2" type="float" value="0.28125"/> Right
           <attribute id="V1" type="float" value="0.0"/> Top
@@ -93,28 +93,28 @@
           <attribute id="V2" type="float" value="0.03125"/> Bottom
 				</node>
 				<node id="IconUV">
-					<attribute id="MapKey" type="FixedString" value="Spellbreaker_Skill_Smite"/>
+					<attribute id="MapKey" type="FixedString" value="Spellbreaker_Skill_AnnullingStrike"/>
           <attribute id="U1" type="float" value="0.3125"/> Left
           <attribute id="U2" type="float" value="0.34375"/> Right
           <attribute id="V1" type="float" value="0.0"/> Top
           <attribute id="V2" type="float" value="0.03125"/> Bottom
 				</node>
 				<node id="IconUV">
-					<attribute id="MapKey" type="FixedString" value="Spellbreaker_Skill_Offensive_Chant"/>
+					<attribute id="MapKey" type="FixedString" value="Spellbreaker_Skill_Weaveburn"/>
           <attribute id="U1" type="float" value="0.34375"/> Left
           <attribute id="U2" type="float" value="0.375"/> Right
           <attribute id="V1" type="float" value="0.0"/> Top
           <attribute id="V2" type="float" value="0.03125"/> Bottom
 				</node>
 				<node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value="Spellbreaker_Skill_ExaltedMarch"/> 13
+          <attribute id="MapKey" type="FixedString" value="Spellbreaker_Skill_InevitableAdvance"/> 13
           <attribute id="U1" type="float" value="0.375"/> Left
           <attribute id="U2" type="float" value="0.40625"/> Right
           <attribute id="V1" type="float" value="0.0"/> Top
           <attribute id="V2" type="float" value="0.03125"/> Bottom
         </node>				
         <node id="IconUV">
-            <attribute id="MapKey" type="FixedString" value="Spellbreaker_Skill_DenyMagic"/> 14
+            <attribute id="MapKey" type="FixedString" value="Spellbreaker_Skill_SpellParry"/> 14
             <attribute id="U1" type="float" value="0.40625"/> Left
             <attribute id="U2" type="float" value="0.4375"/> Right
             <attribute id="V1" type="float" value="0.0"/> Top
@@ -128,7 +128,7 @@
             <attribute id="V2" type="float" value="0.03125"/> Bottom
         </node>	
         <node id="IconUV">
-            <attribute id="MapKey" type="FixedString" value="Spellbreaker_Skill_WrathOfHeaven"/> 16
+            <attribute id="MapKey" type="FixedString" value="Spellbreaker_Skill_Counterspell"/> 16
             <attribute id="U1" type="float" value="0.46875"/> Left
             <attribute id="U2" type="float" value="0.5"/> Right
             <attribute id="V1" type="float" value="0.0"/> Top
@@ -247,11 +247,11 @@
             <attribute id="V2" type="float" value="0.03125"/> Bottom
         </node>
         <node id="IconUV">
-            <attribute id="MapKey" type="FixedString" value="Spellbreaker_"/> 65 ROW 3 = 1
+            <attribute id="MapKey" type="FixedString" value="Spellbreaker_Status_Weaveburn"/> ROW 2 = 1
             <attribute id="U1" type="float" value="0.0"/> Left side
             <attribute id="U2" type="float" value="0.03125"/> Right side
-            <attribute id="V1" type="float" value="0.0625"/> Top
-            <attribute id="V2" type="float" value="0.09375"/> Bottom
+            <attribute id="V1" type="float" value="0.03125"/> Top
+            <attribute id="V2" type="float" value="0.0625"/> Bottom
         </node>		
         <node id="IconUV">
             <attribute id="MapKey" type="FixedString" value="Spellbreaker_"/> 66 ROW 3 = 2

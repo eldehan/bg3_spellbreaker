@@ -5,27 +5,24 @@
         <node id="root">
             <children>
                 <node id="LevelMapSeries">
-                    <attribute id="FallbackValue" type="LSString" value="1d4"/>
-                    <attribute id="Level1" type="LSString" value="1d6"/>
-                    <attribute id="Level5" type="LSString" value="1d8"/>
-                    <attribute id="Level9" type="LSString" value="2d4"/>
+                    <attribute id="FallbackValue" type="LSString" value="1d8"/>
+                    <attribute id="Level1" type="LSString" value="1d8"/>
+                    <attribute id="Level7" type="LSString" value="2d4"/>
                     <attribute id="Name" type="FixedString" value="SpellbaneDie"/>
                     <attribute id="PreferredClassUUID" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232f"/>
                     <attribute id="UUID" type="guid" value="2a24f7c4-190d-4a82-8dd3-10e2797c2533"/>
                 </node>
                 <node id="LevelMapSeries">
-                    <attribute id="FallbackValue" type="LSString" value="2d4"/>
-                    <attribute id="Level1" type="LSString" value="2d6"/>
-                    <attribute id="Level5" type="LSString" value="2d8"/>
-                    <attribute id="Level9" type="LSString" value="4d4"/>
-                    <attribute id="Name" type="FixedString" value="RighteousSmiteDamage"/>
+                    <attribute id="FallbackValue" type="LSString" value="2d8"/>
+                    <attribute id="Level1" type="LSString" value="2d8"/>
+                    <attribute id="Level7" type="LSString" value="4d4"/>
+                    <attribute id="Name" type="FixedString" value="AnnullingStrikeDamage"/>
                     <attribute id="PreferredClassUUID" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232f"/>
                     <attribute id="UUID" type="guid" value="d5f0333d-a276-4a19-8529-d53dddc88836"/>
                 </node>
                 <node id="LevelMapSeries">
-                    <attribute id="FallbackValue" type="LSString" value="2d4"/>
-                    <attribute id="Level1" type="LSString" value="3d6"/>
-                    <attribute id="Level5" type="LSString" value="3d8"/>
+                    <attribute id="FallbackValue" type="LSString" value="2d8"/>
+                    <attribute id="Level1" type="LSString" value="3d8"/>
                     <attribute id="Level9" type="LSString" value="6d4"/>
                     <attribute id="Name" type="FixedString" value="WeaveRendDamage"/>
                     <attribute id="PreferredClassUUID" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232f"/>

@@ -52,3 +52,7 @@ function HasAttackDamageDoneMagicType()
 		return ConditionResult(false)
 	end
 end
+
+function IsForceDamageAmountDone(value)
+    return ConditionResult(context.HitDescription.GetDamageDoneForType(DamageType.Force) == value)
+end
